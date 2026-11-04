@@ -11,3 +11,12 @@ Needs KLC Light installed (`yay -S klc-light`, then join the `klc-light` group).
 ```sh
 omarchy plugin add https://github.com/swald54000/omarchy-klc-light.git --enable
 ```
+
+To remove it:
+
+```sh
+omarchy plugin remove swald.klc-light
+```
+
+It only runs the `klc-light` command line (`list`, `apply`, `off`) and reads
+`~/.config/klc-light/state.json`; it changes no configuration. MIT license.
